@@ -123,5 +123,51 @@
       "cssify",
       "deamdify"
     ]
+  },
+  "format":"amd",
+  "jspm": {
+    "registry":"jspm",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "css": "^0.1.0",
+      "famous-polyfills": "npm:famous-polyfills"
+    },
+    "shim": {
+      "core/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "events/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "inputs/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "math/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "modifiers/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "physics/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "surfaces/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "transitions/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "utilities/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "views/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      },
+      "widgets/*": {
+        "deps": ["famous/core/famous.css!", "famous-polyfills"]
+      }
+    }
   }
 }
