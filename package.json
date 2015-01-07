@@ -140,5 +140,20 @@
       "tests/helpers/rAf-polyfill.js",
       "tests/helpers/MouseEvent-polyfill.js"
     ]
+  },
+  "jspm": {
+    "registry":"jspm",
+    "directories": {
+      "lib": "src"
+    },
+    "dependencies": {
+      "css": "^0.1.0",
+      "famous-polyfills": "npm:famous-polyfills"
+    },
+    "shim": {
+      "*": {
+        "deps": ["src/core/famous.css!", "famous-polyfills"]
+      }
+    }
   }
 }
