@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Transform = require('./Transform');
     var Modifier = require('./Modifier');
     var RenderNode = require('./RenderNode');
@@ -176,4 +175,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Scene;
-});

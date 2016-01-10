@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Matrix = require('./Matrix');
 
     /**
@@ -429,4 +428,3 @@ define(function(require, exports, module) {
 
     module.exports = Quaternion;
 
-});

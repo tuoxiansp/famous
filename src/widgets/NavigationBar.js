@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Scene = require('../core/Scene');
     var Surface = require('../core/Surface');
     var Transform = require('../core/Transform');
@@ -142,4 +141,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = NavigationBar;
-});

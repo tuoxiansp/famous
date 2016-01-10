@@ -9,7 +9,6 @@
 
 /*global console */
 
-define(function(require, exports, module) {
     var Force = require('./Force');
     var Vector = require('../../math/Vector');
 
@@ -264,4 +263,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Spring;
-});

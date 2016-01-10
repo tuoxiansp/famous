@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Modifier = require('../core/Modifier');
     var Transform = require('../core/Transform');
     var Transitionable = require('../transitions/Transitionable');
@@ -315,4 +314,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = StateModifier;
-});

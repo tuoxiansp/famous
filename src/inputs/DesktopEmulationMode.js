@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var hasTouch = 'ontouchstart' in window;
 
     function kill(type) {
@@ -14,4 +13,3 @@ define(function(require, exports, module) {
         kill('mouseup');
         kill('mouseleave');
     }
-});

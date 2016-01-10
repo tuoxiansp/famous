@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     /**
      * FastClick is an override shim which maps event pairs of
      *   'touchstart' and 'touchend' which differ by less than a certain
@@ -65,4 +64,3 @@ define(function(require, exports, module) {
           }
       }, true);
     })();
-});

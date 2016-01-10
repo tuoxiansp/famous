@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var Transitionable = require('../transitions/Transitionable');
     var OptionsManager = require('../core/OptionsManager');
 
@@ -119,4 +118,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Fader;
-});

@@ -6,7 +6,6 @@
  * @license MPL 2.0
  * @copyright Famous Industries, Inc. 2015
  */
-define(function(require, exports, module) {
     var TwoFingerSync = require('./TwoFingerSync');
     var OptionsManager = require('../core/OptionsManager');
 
@@ -96,4 +95,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = RotateSync;
-});

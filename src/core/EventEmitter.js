@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     /**
      * EventEmitter represents a channel for events.
      *
@@ -92,4 +91,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = EventEmitter;
-});

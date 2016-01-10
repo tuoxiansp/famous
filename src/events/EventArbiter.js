@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var EventHandler = require('../core/EventHandler');
 
     /**
@@ -81,4 +80,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = EventArbiter;
-});

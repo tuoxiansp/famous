@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var Transform = require('../core/Transform');
     var Modifier = require('../core/Modifier');
     var RenderNode = require('../core/RenderNode');
@@ -186,4 +185,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Lightbox;
-});

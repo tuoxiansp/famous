@@ -8,7 +8,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Surface = require('../core/Surface');
     var Context = require('../core/Context');
 
@@ -112,4 +111,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ContainerSurface;
-});

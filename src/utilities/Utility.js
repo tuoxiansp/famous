@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     /**
      * This namespace holds standalone functionality.
      *  Currently includes name mapping for transition curves,
@@ -118,4 +117,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Utility;
-});

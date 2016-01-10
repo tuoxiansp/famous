@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var InputSurface = require('./InputSurface');
 
     function SubmitInputSurface(options) {
@@ -20,4 +19,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = SubmitInputSurface;
-});

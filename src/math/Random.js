@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 /*eslint-disable new-cap */
-define(function(require, exports, module) {
     var RAND = Math.random;
 
     function _randomFloat(min, max) {
@@ -93,4 +92,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Random;
-});

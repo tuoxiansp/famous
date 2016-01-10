@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
 
     /**
      * Internal helper object to Context that handles the process of
@@ -103,4 +102,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ElementAllocator;
-});

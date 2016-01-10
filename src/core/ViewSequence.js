@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
 
     /**
      * Helper object used to iterate through items sequentially. Used in
@@ -335,4 +334,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ViewSequence;
-});

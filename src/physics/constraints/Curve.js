@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Constraint = require('./Constraint');
     var Vector = require('../../math/Vector');
 
@@ -130,4 +129,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Curve;
-});

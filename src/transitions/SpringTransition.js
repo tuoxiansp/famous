@@ -9,7 +9,6 @@
 
 /*global console*/
 
-define(function(require, exports, module) {
     var PE = require('../physics/PhysicsEngine');
     var Particle = require('../physics/bodies/Particle');
     var Spring = require('../physics/forces/Spring');
@@ -275,4 +274,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = SpringTransition;
-});

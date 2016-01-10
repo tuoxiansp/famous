@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Modifier = require('../core/Modifier');
     var RenderNode = require('../core/RenderNode');
     var Transform = require('../core/Transform');
@@ -335,4 +334,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = RenderController;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Transform = require('./Transform');
 
     /* TODO: remove these dependencies when deprecation complete */
@@ -431,4 +430,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Modifier;
-});

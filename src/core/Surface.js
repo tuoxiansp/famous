@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var ElementOutput = require('./ElementOutput');
 
     /**
@@ -493,4 +492,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Surface;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Entity = require('./Entity');
     var EventHandler = require('./EventHandler');
     var Transform = require('./Transform');
@@ -319,4 +318,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ElementOutput;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Drag = require('./Drag');
 
     /**
@@ -94,4 +93,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = RotationalDrag;
-});

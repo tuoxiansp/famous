@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Body = require('./Body');
     var Matrix = require('../../math/Matrix');
 
@@ -58,4 +57,3 @@ define(function(require, exports, module) {
 
     module.exports = Rectangle;
 
-});

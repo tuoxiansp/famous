@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var ContainerSurface = require('./ContainerSurface');
 
     function FormContainerSurface(options) {
@@ -17,4 +16,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = FormContainerSurface;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var CachedMap = require('../transitions/CachedMap');
     var Entity = require('../core/Entity');
     var EventHandler = require('../core/EventHandler');
@@ -103,4 +102,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = EdgeSwapper;
-});

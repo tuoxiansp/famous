@@ -9,7 +9,6 @@
 // TODO fix func-style
 /*eslint func-style: [0, "declaration"] */
 
-define(function(require, exports, module) {
     /**
      * An internal library to reproduce javascript time-based scheduling.
      *   Using standard javascript setTimeout methods can have a negative performance impact
@@ -200,4 +199,3 @@ define(function(require, exports, module) {
         clear : clear
     };
 
-});

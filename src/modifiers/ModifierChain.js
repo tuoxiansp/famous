@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
 
     /**
      * A class to add and remove a chain of modifiers
@@ -67,4 +66,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ModifierChain;
-});

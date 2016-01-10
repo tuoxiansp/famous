@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Entity = require('../core/Entity');
     var Transform = require('../core/Transform');
     var OptionsManager = require('../core/OptionsManager');
@@ -226,4 +225,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = FlexibleLayout;
-});

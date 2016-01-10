@@ -8,7 +8,6 @@
  */
 
 //TODO: test inheritance
-define(function(require, exports, module) {
     var Force = require('./Force');
     var Spring = require('./Spring');
     var Quaternion = require('../../math/Quaternion');
@@ -140,4 +139,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = RotationalSpring;
-});

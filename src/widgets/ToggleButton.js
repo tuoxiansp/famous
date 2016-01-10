@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Surface = require('../core/Surface');
     var EventHandler = require('../core/EventHandler');
     var RenderController = require('../views/RenderController');
@@ -170,4 +169,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ToggleButton;
-});

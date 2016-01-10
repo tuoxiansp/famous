@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Transform = require('../core/Transform');
     var OptionsManager = require('../core/OptionsManager');
     var Transitionable = require('../transitions/Transitionable');
@@ -140,4 +139,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Deck;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var ContainerSurface = require('../surfaces/ContainerSurface');
     var EventHandler = require('../core/EventHandler');
     var Scrollview = require('./Scrollview');
@@ -97,4 +96,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = ScrollContainer;
-});

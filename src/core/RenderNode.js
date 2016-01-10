@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Entity = require('./Entity');
     var SpecParser = require('./SpecParser');
 
@@ -164,4 +163,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = RenderNode;
-});

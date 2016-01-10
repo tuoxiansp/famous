@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var PhysicsEngine = require('../physics/PhysicsEngine');
     var Particle = require('../physics/bodies/Particle');
     var Drag = require('../physics/forces/Drag');
@@ -655,4 +654,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Scrollview;
-});

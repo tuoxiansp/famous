@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var Entity = require('../core/Entity');
     var Group = require('../core/Group');
     var OptionsManager = require('../core/OptionsManager');
@@ -307,4 +306,3 @@ define(function(require, exports, module) {
     }
 
     module.exports = Scroller;
-});

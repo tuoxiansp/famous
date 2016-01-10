@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Vector = require('./Vector');
 
     /**
@@ -152,4 +151,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Matrix;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Transitionable = require('./Transitionable');
     var Transform = require('../core/Transform');
     var Utility = require('../utilities/Utility');
@@ -504,4 +503,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = TransitionableTransform;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
 
     /**
      * Ordinary Differential Equation (ODE) Integrator.
@@ -99,4 +98,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = SymplecticEuler;
-});

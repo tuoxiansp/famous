@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Particle = require('./Particle');
     var Transform = require('../../core/Transform');
     var Vector = require('../../math/Vector');
@@ -226,4 +225,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Body;
-});

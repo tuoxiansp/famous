@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     /**
      * A few static methods.
      *
@@ -44,4 +43,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Utilities;
-});

@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
 
     /**
      * Three-element floating point vector.
@@ -377,4 +376,3 @@ define(function(require, exports, module) {
 
     module.exports = Vector;
 
-});

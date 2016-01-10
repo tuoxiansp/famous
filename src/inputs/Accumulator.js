@@ -1,4 +1,3 @@
-define(function(require, exports, module) {
     var EventHandler = require('../core/EventHandler');
     var Transitionable = require('../transitions/Transitionable');
 
@@ -58,4 +57,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Accumulator;
-});

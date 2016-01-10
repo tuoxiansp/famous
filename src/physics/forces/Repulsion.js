@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Force = require('./Force');
     var Vector = require('../../math/Vector');
 
@@ -210,4 +209,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Repulsion;
-});

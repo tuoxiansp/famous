@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var View      = require('../core/View');
     var Entity    = require('../core/Entity');
     var Transform = require('../core/Transform');
@@ -90,4 +89,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = SizeAwareView;
-});

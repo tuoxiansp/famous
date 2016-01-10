@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     /**
      * A singleton that maintains a global registry of Surfaces.
      *   Private.
@@ -74,4 +73,3 @@ define(function(require, exports, module) {
         get: get,
         set: set
     };
-});

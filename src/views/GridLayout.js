@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Entity = require('../core/Entity');
     var RenderNode = require('../core/RenderNode');
     var Transform = require('../core/Transform');
@@ -225,4 +224,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = GridLayout;
-});

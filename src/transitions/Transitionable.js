@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 /*eslint-disable new-cap */
-define(function(require, exports, module) {
     var MultipleTransition = require('./MultipleTransition');
     var TweenTransition = require('./TweenTransition');
 
@@ -224,4 +223,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Transitionable;
-});

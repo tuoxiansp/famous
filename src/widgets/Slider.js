@@ -7,7 +7,6 @@
  * @copyright Famous Industries, Inc. 2015
  */
 
-define(function(require, exports, module) {
     var Surface = require('../core/Surface');
     var CanvasSurface = require('../surfaces/CanvasSurface');
     var Transform = require('../core/Transform');
@@ -133,4 +132,3 @@ define(function(require, exports, module) {
     };
 
     module.exports = Slider;
-});
